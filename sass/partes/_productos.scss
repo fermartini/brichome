@@ -1,0 +1,83 @@
+.productos{
+    background-color: $color1;
+    &__titulo {
+        padding: $xl;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        h2{
+            padding-inline: $xxl $xl;
+        }
+    }
+    &__todo {
+        display: flex;
+    }
+    &__img{
+        padding: $l $xxl2+5;
+    }
+    img{
+        height: 60vh;
+        box-shadow: 5px 5px 5px #999;
+    }
+    &__nombre h3 {
+        font-size: $titulor;
+        padding-bottom: $l;
+    }
+    &__info{
+        margin-top: $xxl;
+        p{
+            font-size: $parrafo;
+        }        
+    }
+    &__precio {
+        display: flex;
+        justify-content: end;
+        padding-top: 3rem;
+        h3{
+            font-size: $titulo;
+        }
+    }
+    
+}
+.productos-2{
+    @extend .productos;
+    padding-top: $xxl
+    ;
+    background-color: $color3;
+    display: flex;
+    justify-content: space-between;
+    padding-left: $xxl2+5;
+    .productos__img img{
+        height: 60vh;
+        box-shadow: 10px 10px 10px black;
+    }
+    .productos__todo-2{
+        @extend .productos__todo;
+        flex-direction: row-reverse;
+    }
+    
+    .productos__nombre-2 h3 {
+        color: $color4;
+        font-size: $titulor;
+        padding-bottom: $l;
+    }
+    .productos__p-2{
+        
+        color: $color4;
+    }
+    .productos__precio-2{
+        @extend .productos__precio;
+        color:$color4;
+    }
+}
+.color{
+    background-color: $color3!important;
+    color: $color4;
+}
+
+
+
+.productos__titulo-2{
+    @extend .productos__titulo;
+    color: $color4;
+    background-color: $color3;
+}

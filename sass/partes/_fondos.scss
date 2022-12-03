@@ -1,0 +1,29 @@
+.fondo{
+    height: 40vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__titulo {
+        height: 50%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(217, 227, 232, .7);
+        h2{
+            font-size: $titulor;
+        }
+    }
+}
+
+#habitacion{
+    background-image: url("../img/fondos/fondo_habitacion.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#cocina{
+    @extend #habitacion;
+    background-image: url("../img/fondos/cocina.png");
+}

@@ -1,0 +1,45 @@
+/*RESONSIVE*/
+
+$breakpoint: (
+    celu: 576px,
+    tablet: 768px,
+    pc: 1024px
+);
+
+@mixin responsive($dispositivo){
+    @media screen and (min-width: map-get($breakpoint, $dispositivo)){
+        @content;
+    }
+}
+
+/*Variables */
+
+/*COLORES*/
+
+$color1: #d9e3e8;
+$color2: #b62902;
+$color3: #000f14;
+$color4: #ffffff;
+
+/*TAMAÑOS DE TIPOGRAFIA*/
+
+$titulo: 5rem;
+$titulor: 3.5rem;
+$titulo2: 2.5rem;
+$subtitulo: 2rem;
+$parrafo: 1.2rem;
+
+
+/* ESPACIADO*/
+
+$xxl2: 10rem;
+$xxl: 5rem;
+$xl: 3rem;
+$l: 2rem;
+$m: 1rem;
+$s: 0.5rem;
+
+/*TIPOGRAFIAS*/
+
+$tipografia1: 'Rajdhani', sans-serif;
+$tipografia2: 'Sono', sans-serif;

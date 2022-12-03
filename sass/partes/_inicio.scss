@@ -1,0 +1,18 @@
+.inicio{ 
+    &__titulo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        h1 {
+            font-size: $titulo * 2;
+            padding-bottom: $l;
+        }
+    }
+    &__pie {
+        display: flex;
+        justify-content: end;
+        padding-right: $xl;
+    }
+}

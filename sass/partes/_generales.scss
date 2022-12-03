@@ -1,0 +1,13 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+}
+html {
+    scroll-behavior: smooth;
+}
+header{
+    padding: $m $xxl;
+    height: 100vh;
+    background-color: $color1;
+}
