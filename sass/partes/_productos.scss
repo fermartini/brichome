@@ -27,18 +27,35 @@
     &__img {
         display: flex;
         justify-content: center;
-        
+        @include responsive (celu){
+            width: 100vw;
+        }
         
     }
     img{
         height: 60vh;
         box-shadow: 5px 5px 5px #999;
+        @include responsive(celu){
+            width: 80vw;
+        height: auto;
+        }
     }
-    &__nombre h3 {
-        font-size: $titulor;
-        padding-bottom: $l;
-        @include responsive (pc){
-            font-size: 2.5rem;
+    &__nombre {
+        
+    
+        h3 {
+            font-size: $titulor;
+            padding-bottom: $l;
+            @include responsive (pc){
+                font-size: 2.5rem;
+            }
+            @include responsive (celu){
+                font-size: 2rem;
+            }
+        }
+        @include responsive (celu){
+            display: flex;
+        justify-content: center;
         }
     }
     &__info{
@@ -52,10 +69,15 @@
             margin-top: 1rem;
         }   
         @include responsive (celu){
-            
+            display: flex;
+            flex-direction: column;
             padding-top: 1rem;
-            padding-inline: 3rem 
+            .productos__p {
+                padding-inline: 3rem;
+
+            }
         }  
+        
     }
     &__precio {
         padding-top: 3rem;
@@ -64,6 +86,13 @@
             @include responsive(tablet){
                 font-size: 4rem;
             }
+            @include responsive (celu){
+                font-size: 3rem;
+            }
+        }
+        @include responsive (celu){
+            display: flex;
+        justify-content: center;
         }
     }
     
@@ -78,6 +107,10 @@
         img{
         height: 60vh;
         box-shadow: 10px 10px 10px black;
+        @include responsive(celu){
+            width: 80vw;
+        height: auto;
+        }
         }
     }
     .productos__todo-2{
@@ -96,7 +129,7 @@
             padding-left: 3rem;
         }
         @include responsive (celu){
-            padding-inline: 3rem 
+            padding-left: 0;
         }
     }
     .productos__nombre-2 h3 {
@@ -106,10 +139,17 @@
         @include responsive (pc){
             font-size: 2.5rem;
         }
+        @include responsive (celu){
+            font-size: 2rem;
+            
+        }
     }
     .productos__p-2{
         
         color: $color4;
+        @include responsive(celu){
+            padding-inline: 3rem;
+        }
     }
     .productos__precio-2{
         @extend .productos__precio;
@@ -117,6 +157,9 @@
         h3{
             @include responsive(tablet){
                 font-size: 4rem;
+            }
+            @include responsive (celu){
+                font-size: 3rem;
             }
         }
     }
@@ -133,3 +176,4 @@
     color: $color4;
     background-color: $color3;
 }
+

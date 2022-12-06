@@ -51,8 +51,7 @@ header {
   justify-content: center;
   align-items: center; }
   .fondo__titulo {
-    height: 50%;
-    width: 50%;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,14 +63,16 @@ header {
       .fondo__titulo {
         height: auto;
         width: auto;
-        padding: 1rem; } }
+        padding: 1rem; }
+        .fondo__titulo h2 {
+          font-size: 2.5rem; } }
 
-#habitacion, #cocina {
+#habitacion, #cocina, #comedor, #bano {
   background-image: url("../img/fondos/fondo_habitacion.png");
   background-size: cover;
   background-attachment: fixed; }
   @media screen and (max-width: 576px) {
-    #habitacion, #cocina {
+    #habitacion, #cocina, #comedor, #bano {
       background-image: url("../img/fondos/habitacion_celu.jpg"); } }
 
 #cocina {
@@ -79,6 +80,18 @@ header {
   @media screen and (max-width: 576px) {
     #cocina {
       background-image: url("../img/fondos/cocina_celu.jpg"); } }
+
+#comedor {
+  background-image: url("../img/fondos/living.png"); }
+  @media screen and (max-width: 576px) {
+    #comedor {
+      background-image: url("../img/fondos/living_celu.jpg"); } }
+
+#bano {
+  background-image: url("../img/fondos/bano.jpg"); }
+  @media screen and (max-width: 576px) {
+    #bano {
+      background-image: url("../img/fondos/bano_celu.jpg"); } }
 
 .productos, .productos-2 {
   background-color: #d9e3e8;
@@ -105,15 +118,29 @@ header {
   .productos__img {
     display: flex;
     justify-content: center; }
+    @media screen and (max-width: 576px) {
+      .productos__img {
+        width: 100vw; } }
   .productos img, .productos-2 img {
     height: 60vh;
     box-shadow: 5px 5px 5px #999; }
+    @media screen and (max-width: 576px) {
+      .productos img, .productos-2 img {
+        width: 80vw;
+        height: auto; } }
   .productos__nombre h3 {
     font-size: 3.5rem;
     padding-bottom: 2rem; }
     @media screen and (max-width: 1024px) {
       .productos__nombre h3 {
         font-size: 2.5rem; } }
+    @media screen and (max-width: 576px) {
+      .productos__nombre h3 {
+        font-size: 2rem; } }
+  @media screen and (max-width: 576px) {
+    .productos__nombre {
+      display: flex;
+      justify-content: center; } }
   .productos__info {
     margin-top: 5rem;
     overflow: hidden p;
@@ -123,8 +150,11 @@ header {
         margin-top: 1rem; } }
     @media screen and (max-width: 576px) {
       .productos__info {
-        padding-top: 1rem;
-        padding-inline: 3rem; } }
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem; }
+        .productos__info .productos__p {
+          padding-inline: 3rem; } }
   .productos__precio, .productos-2 .productos__precio-2 {
     padding-top: 3rem; }
     .productos__precio h3, .productos-2 .productos__precio-2 h3 {
@@ -132,6 +162,13 @@ header {
       @media screen and (max-width: 768px) {
         .productos__precio h3, .productos-2 .productos__precio-2 h3 {
           font-size: 4rem; } }
+      @media screen and (max-width: 576px) {
+        .productos__precio h3, .productos-2 .productos__precio-2 h3 {
+          font-size: 3rem; } }
+    @media screen and (max-width: 576px) {
+      .productos__precio, .productos-2 .productos__precio-2 {
+        display: flex;
+        justify-content: center; } }
 
 .productos-2 {
   padding-top: 5rem;
@@ -141,6 +178,10 @@ header {
     .productos-2 .productos__img img {
       height: 60vh;
       box-shadow: 10px 10px 10px black; }
+      @media screen and (max-width: 576px) {
+        .productos-2 .productos__img img {
+          width: 80vw;
+          height: auto; } }
   .productos-2 .productos__todo-2 {
     grid-template-areas: "a b"; }
     @media screen and (max-width: 576px) {
@@ -156,7 +197,7 @@ header {
         padding-left: 3rem; } }
     @media screen and (max-width: 576px) {
       .productos-2 .productos__info {
-        padding-inline: 3rem; } }
+        padding-left: 0; } }
   .productos-2 .productos__nombre-2 h3 {
     color: #ffffff;
     font-size: 3.5rem;
@@ -164,13 +205,22 @@ header {
     @media screen and (max-width: 1024px) {
       .productos-2 .productos__nombre-2 h3 {
         font-size: 2.5rem; } }
+    @media screen and (max-width: 576px) {
+      .productos-2 .productos__nombre-2 h3 {
+        font-size: 2rem; } }
   .productos-2 .productos__p-2 {
     color: #ffffff; }
+    @media screen and (max-width: 576px) {
+      .productos-2 .productos__p-2 {
+        padding-inline: 3rem; } }
   .productos-2 .productos__precio-2 {
     color: #ffffff; }
     @media screen and (max-width: 768px) {
       .productos-2 .productos__precio-2 h3 {
         font-size: 4rem; } }
+    @media screen and (max-width: 576px) {
+      .productos-2 .productos__precio-2 h3 {
+        font-size: 3rem; } }
 
 .color {
   background-color: #000f14 !important;

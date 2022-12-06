@@ -4,20 +4,22 @@
     justify-content: center;
     align-items: center;
     &__titulo {
-        height: 50%;
-        width: 50%;
+        padding: 2rem;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         background-color: rgba(217, 227, 232, .7);
         h2{
-            font-size: $titulor;
+            font-size: $titulor;           
         }
         @include responsive (celu){
             height: auto;
             width: auto;
-            padding: 1rem;
+            padding: 1rem;    
+            h2{
+                font-size: 2.5rem;
+            }        
         }
     }
 }
@@ -38,3 +40,20 @@
         background-image: url("../img/fondos/cocina_celu.jpg")   
     }
 }
+
+#comedor{
+    @extend #habitacion;
+        background-image: url("../img/fondos/living.png");
+    @include responsive (celu){
+        background-image: url("../img/fondos/living_celu.jpg")   
+    }
+}
+
+#bano{
+    @extend #habitacion;
+        background-image: url("../img/fondos/bano.jpg");
+    @include responsive (celu){
+        background-image: url("../img/fondos/bano_celu.jpg")   
+    }
+}
+
