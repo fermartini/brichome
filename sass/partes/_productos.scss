@@ -1,5 +1,7 @@
 .productos{
     background-color: $color1;
+    padding-bottom: $xxl;
+    overflow: hidden;
     &__titulo {
         padding: $xl;
         display: grid;
@@ -7,12 +9,26 @@
         h2{
             padding-inline: $xxl $xl;
         }
+        @include responsive (celu){
+            padding: 1rem;
+            h2{
+                font-size: 1.5rem;
+                padding-inline: 0!important;
+            }
+        }
     }
     &__todo {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        @include responsive (celu){
+            grid-template-columns: 1fr;   
+        }
     }
-    &__img{
-        padding: $l $xxl2+5;
+    &__img {
+        display: flex;
+        justify-content: center;
+        
+        
     }
     img{
         height: 60vh;
@@ -21,44 +37,75 @@
     &__nombre h3 {
         font-size: $titulor;
         padding-bottom: $l;
+        @include responsive (pc){
+            font-size: 2.5rem;
+        }
     }
     &__info{
         margin-top: $xxl;
+        overflow: hidden        
         p{
             font-size: $parrafo;
-        }        
+            
+        }   
+        @include responsive (pc){
+            margin-top: 1rem;
+        }   
+        @include responsive (celu){
+            
+            padding-top: 1rem;
+            padding-inline: 3rem 
+        }  
     }
     &__precio {
-        display: flex;
-        justify-content: end;
         padding-top: 3rem;
         h3{
-            font-size: $titulo;
+            font-size: $titulo;         
+            @include responsive(tablet){
+                font-size: 4rem;
+            }
         }
     }
     
 }
 .productos-2{
     @extend .productos;
-    padding-top: $xxl
-    ;
+    
+    padding-top: $xxl;
     background-color: $color3;
-    display: flex;
-    justify-content: space-between;
-    padding-left: $xxl2+5;
-    .productos__img img{
+    .productos__img {
+        grid-area: b;
+        img{
         height: 60vh;
         box-shadow: 10px 10px 10px black;
+        }
     }
     .productos__todo-2{
         @extend .productos__todo;
-        flex-direction: row-reverse;
+        grid-template-areas: "a b";
+        @include responsive (celu){
+            display: flex;
+            flex-direction: column; 
+        }
     }
-    
+    .productos__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include responsive (tablet){
+            padding-left: 3rem;
+        }
+        @include responsive (celu){
+            padding-inline: 3rem 
+        }
+    }
     .productos__nombre-2 h3 {
         color: $color4;
         font-size: $titulor;
         padding-bottom: $l;
+        @include responsive (pc){
+            font-size: 2.5rem;
+        }
     }
     .productos__p-2{
         
@@ -67,6 +114,11 @@
     .productos__precio-2{
         @extend .productos__precio;
         color:$color4;
+        h3{
+            @include responsive(tablet){
+                font-size: 4rem;
+            }
+        }
     }
 }
 .color{

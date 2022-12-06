@@ -7,7 +7,7 @@ $breakpoint: (
 );
 
 @mixin responsive($dispositivo){
-    @media screen and (min-width: map-get($breakpoint, $dispositivo)){
+    @media screen and (max-width: map-get($breakpoint, $dispositivo)){
         @content;
     }
 }

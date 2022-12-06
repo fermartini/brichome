@@ -10,4 +10,7 @@ header{
     padding: $m $xxl;
     height: 100vh;
     background-color: $color1;
+    @include responsive (celu){
+        padding: 1rem;
+    }
 }

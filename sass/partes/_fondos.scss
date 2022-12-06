@@ -14,6 +14,11 @@
         h2{
             font-size: $titulor;
         }
+        @include responsive (celu){
+            height: auto;
+            width: auto;
+            padding: 1rem;
+        }
     }
 }
 
@@ -21,9 +26,15 @@
     background-image: url("../img/fondos/fondo_habitacion.png");
     background-size: cover;
     background-attachment: fixed;
+    @include responsive (celu){
+        background-image: url("../img/fondos/habitacion_celu.jpg");   
+    }
 }
 
 #cocina{
     @extend #habitacion;
-    background-image: url("../img/fondos/cocina.png");
+        background-image: url("../img/fondos/cocina.png");
+    @include responsive (celu){
+        background-image: url("../img/fondos/cocina_celu.jpg")   
+    }
 }
