@@ -68,7 +68,7 @@ header {
           font-size: 2.5rem; } }
 
 #habitacion, #cocina, #comedor, #bano {
-  background-image: url("../img/fondos/fondo_habitacion.png");
+  background-image: url("../img/fondos/habitacion.jpg");
   background-size: cover;
   background-attachment: fixed; }
   @media screen and (max-width: 576px) {
