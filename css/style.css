@@ -33,6 +33,28 @@ ul .nav-link {
 ul .nav-link:hover {
   transform: scale(1.2); }
 
+.info {
+  display: flex;
+  background-color: #d9e3e8;
+  padding: 3rem;
+  justify-content: center; }
+  .info .card-header {
+    background-color: #000f14;
+    color: #d9e3e8; }
+  .info .card {
+    width: 70vw; }
+  .info__h3 {
+    display: flex;
+    justify-content: center; }
+  .info h3 {
+    font-size: 3rem;
+    margin-block: 2.5rem; }
+  .info h5 {
+    font-size: 2rem; }
+  .info p {
+    margin-top: 1rem;
+    margin-bottom: 0; }
+
 .inicio__titulo {
   display: flex;
   flex-direction: column;

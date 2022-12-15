@@ -1,0 +1,32 @@
+.info{
+    display: flex;
+    
+    background-color: $color1;
+    padding: $xl;
+    justify-content: center;
+    .card-header{
+        background-color: $color3;
+            color: $color1;
+    }
+    .card {
+        width: 70vw;
+    }
+    &__h3{            
+            display: flex;
+            justify-content: center;
+        
+    }
+    
+    h3 {
+        font-size: 3rem;
+        margin-block: 2.5rem;
+    }
+    
+    h5{
+        font-size: 2rem;
+    }
+    p {
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+}
