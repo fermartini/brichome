@@ -1,9 +1,8 @@
 .info{
     display: flex;
-    
+    flex-direction: column;
     background-color: $color1;
     padding: $xl;
-    justify-content: center;
     .card-header{
         background-color: $color3;
             color: $color1;
@@ -14,19 +13,41 @@
     &__h3{            
             display: flex;
             justify-content: center;
-        
+            margin-bottom: 2rem;
+            font-family: 'Rajdhani', sans-serif;
+            
     }
-    
+    &__h5{
+        margin-left: 5rem;
+        font-family: 'Rajdhani', sans-serif;
+        @include responsive(tablet){
+            margin-left: 0.5rem;
+        }
+    }
+    &__p{
+        margin-left: 5rem;
+        font-family: 'Rajdhani', sans-serif;
+        @include responsive(tablet){
+            margin-left: 0.5rem;
+        }
+    }
     h3 {
-        font-size: 3rem;
+        font-size: 5rem;
         margin-block: 2.5rem;
+        @include responsive(tablet){
+            font-size: 3.5rem
+        }
     }
     
     h5{
-        font-size: 2rem;
+        font-size: 3rem;
+        @include responsive(tablet){
+            font-size: 2.2rem;
+        }
     }
     p {
-        margin-top: 1rem;
-        margin-bottom: 0;
+        margin-block: 2.5rem;
+        
+        font-size: 1.5rem;
     }
 }

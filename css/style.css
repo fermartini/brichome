@@ -35,9 +35,9 @@ ul .nav-link:hover {
 
 .info {
   display: flex;
+  flex-direction: column;
   background-color: #d9e3e8;
-  padding: 3rem;
-  justify-content: center; }
+  padding: 3rem; }
   .info .card-header {
     background-color: #000f14;
     color: #d9e3e8; }
@@ -45,15 +45,35 @@ ul .nav-link:hover {
     width: 70vw; }
   .info__h3 {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-family: 'Rajdhani', sans-serif; }
+  .info__h5 {
+    margin-left: 5rem;
+    font-family: 'Rajdhani', sans-serif; }
+    @media screen and (max-width: 768px) {
+      .info__h5 {
+        margin-left: 0.5rem; } }
+  .info__p {
+    margin-left: 5rem;
+    font-family: 'Rajdhani', sans-serif; }
+    @media screen and (max-width: 768px) {
+      .info__p {
+        margin-left: 0.5rem; } }
   .info h3 {
-    font-size: 3rem;
+    font-size: 5rem;
     margin-block: 2.5rem; }
+    @media screen and (max-width: 768px) {
+      .info h3 {
+        font-size: 3.5rem; } }
   .info h5 {
-    font-size: 2rem; }
+    font-size: 3rem; }
+    @media screen and (max-width: 768px) {
+      .info h5 {
+        font-size: 2.2rem; } }
   .info p {
-    margin-top: 1rem;
-    margin-bottom: 0; }
+    margin-block: 2.5rem;
+    font-size: 1.5rem; }
 
 .inicio__titulo {
   display: flex;
