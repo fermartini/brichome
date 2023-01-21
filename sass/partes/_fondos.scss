@@ -24,7 +24,7 @@
     }
 }
 
-#habitacion{
+#HABITACION{
     background-image: url("../img/fondos/habitacion.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -33,24 +33,24 @@
     }
 }
 
-#cocina{
-    @extend #habitacion;
+#COCINA{
+    @extend #HABITACION;
         background-image: url("../img/fondos/cocina.png");
     @include responsive (celu){
         background-image: url("../img/fondos/cocina_celu.jpg")   
     }
 }
 
-#comedor{
-    @extend #habitacion;
+#LIVING{
+    @extend #HABITACION;
         background-image: url("../img/fondos/living.png");
     @include responsive (celu){
         background-image: url("../img/fondos/living_celu.jpg")   
     }
 }
 
-#bano{
-    @extend #habitacion;
+#BAÑO{
+    @extend #HABITACION;
         background-image: url("../img/fondos/bano.jpg");
     @include responsive (celu){
         background-image: url("../img/fondos/bano_celu.jpg")   

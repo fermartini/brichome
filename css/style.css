@@ -118,30 +118,30 @@ ul .nav-link:hover {
         .fondo__titulo h2 {
           font-size: 2rem; } }
 
-#habitacion, #cocina, #comedor, #bano {
+#HABITACION, #COCINA, #LIVING, #BAÑO {
   background-image: url("../img/fondos/habitacion.jpg");
   background-size: cover;
   background-attachment: fixed; }
   @media screen and (max-width: 576px) {
-    #habitacion, #cocina, #comedor, #bano {
+    #HABITACION, #COCINA, #LIVING, #BAÑO {
       background-image: url("../img/fondos/habitacion_celu.jpg"); } }
 
-#cocina {
+#COCINA {
   background-image: url("../img/fondos/cocina.png"); }
   @media screen and (max-width: 576px) {
-    #cocina {
+    #COCINA {
       background-image: url("../img/fondos/cocina_celu.jpg"); } }
 
-#comedor {
+#LIVING {
   background-image: url("../img/fondos/living.png"); }
   @media screen and (max-width: 576px) {
-    #comedor {
+    #LIVING {
       background-image: url("../img/fondos/living_celu.jpg"); } }
 
-#bano {
+#BAÑO {
   background-image: url("../img/fondos/bano.jpg"); }
   @media screen and (max-width: 576px) {
-    #bano {
+    #BAÑO {
       background-image: url("../img/fondos/bano_celu.jpg"); } }
 
 .productos, .productos-2 {
