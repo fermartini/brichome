@@ -14,7 +14,7 @@ const dressoire = [];
 const espejosL = [];
 const espinesL = [];
 const espinesB = [];
-
+const estantes = []
 
 //CATEGORIA DE MUEBLES
 const habitacion = [mesasDeLuz, espejosH, espinesH];
@@ -247,7 +247,7 @@ crearProducto(espejosH, new Mueble(
     //TERMINACION
     "Pintura electroestatica color negro.", 
     //PRECIO
-    29823, 
+    31045, 
     //IMAGEN
     "https://i.ibb.co/zX8LYTd/espejo-bold.jpg", 
     //NUMERO
@@ -301,7 +301,7 @@ crearProducto(especieros, new Mueble(
     //SUB CATEGORIA
     "ESPECIERO" ))
     
-crearProducto(especieros, new Mueble(
+crearProducto(estantes, new Mueble(
     //ID
     sumarID(especieros), 
     //CATEGORIA
@@ -319,10 +319,30 @@ crearProducto(especieros, new Mueble(
     //IMAGEN
     "https://i.ibb.co/LQpgW6P/estante-de-cocina.jpg", 
     //NUMERO
+    1, 
+    //SUB CATEGORIA
+    "ESTANTES" ))
+crearProducto(estantes, new Mueble(
+    //ID
+    sumarID(especieros), 
+    //CATEGORIA
+    "COCINA", 
+    //NOMBRE
+    "ESTANTE MONTESORI", 
+    //MATERIAL
+    "Álamo.", 
+    //MEDIDA
+    "80 cm. x 11 cm. x 11 cm.", 
+    //TERMINACION
+    "Teñido en color petiribí más lustre semimate.", 
+    //PRECIO
+    4278, 
+    //IMAGEN
+    "ttps://i.ibb.co/JcCHQBy/Dise-o-sin-t-tulo.png", 
+    //NUMERO
     2, 
     //SUB CATEGORIA
-    "ESPECIERO" ))
-
+    "ESTANTES" ))
 
 //LIVING
 crearProducto(bancos, new Mueble(
@@ -515,7 +535,7 @@ crearProducto(espejosL, new Mueble(
     //TERMINACION
     "Pintura electroestatica en color negro.",  
     //PRECIO
-    21160, 
+    26300, 
     //IMAGEN
     "https://i.ibb.co/gzsxLp4/espejo-damero.jpg", 
     //NUMERO
@@ -598,6 +618,7 @@ crearMuebleHTML(mesasDeLuz)
 crearMuebleHTML(espejosH)
 crearMuebleHTML(espinesH)
 crearMuebleHTML(especieros)
+crearMuebleHTML(estantes)
 crearMuebleHTML(bancos)
 crearMuebleHTML(mesasRatonas)
 crearMuebleHTML(mesasDeArrime)
