@@ -479,6 +479,28 @@ crearProducto(dressoire, new Mueble(
     //SUB CATEGORIA
     "DRESSOIRE" ))
 
+crearProducto(dressoire, new Mueble(
+        //ID
+        sumarID(dressoire), 
+        //CATEGORIA
+        "LIVING", 
+        //NOMBRE
+        "DRESSOIRE", 
+        //MATERIAL
+        "Alamo.", 
+        //MEDIDA
+        "100 cm. x 90 cm. x 35 cm.", 
+        //TERMINACION
+        "Teñido en color negro con lustre semimate.",  
+        //PRECIO
+        26400, 
+        //IMAGEN
+        "https://i.ibb.co/txSQv9N/Dise-o-sin-t-tulo.png", 
+        //NUMERO
+        2, 
+        //SUB CATEGORIA
+        "DRESSOIRE" ))
+
 crearProducto(espejosL, new Mueble(
     //ID
      sumarID(dressoire), 
