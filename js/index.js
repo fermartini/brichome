@@ -202,7 +202,7 @@ crearProducto(mesasDeLuz, new Mueble(
     //TERMINACION
     "Teñido en color petiribí más lustre semimate.", 
     //PRECIO
-    34700, 
+    "34.700,00", 
     //IMAGEN
     "https://i.ibb.co/c8xz4GB/mesa-de-luz-con-estante.jpg",
     //NUMERO
@@ -247,7 +247,7 @@ crearProducto(espejosH, new Mueble(
     //TERMINACION
     "Pintura electroestatica color negro.", 
     //PRECIO
-    31045, 
+    "31.045,00", 
     //IMAGEN
     "https://i.ibb.co/zX8LYTd/espejo-bold.jpg", 
     //NUMERO
@@ -269,7 +269,7 @@ crearProducto(espinesH, new Mueble(
     //TERMINACION
     "Teñido en color petiribí más lustre semimate", 
     //PRECIO
-    29200 , 
+    "29.200,00" , 
     //IMAGEN
     "https://i.ibb.co/q7sqh6b/espin-triple.jpg", 
     //NUMERO
@@ -293,7 +293,7 @@ crearProducto(especieros, new Mueble(
     //TERMINACION
     "Madera de álamo natural con la terminación de laca semimate.", 
     //PRECIO
-    18580, 
+    "18.580,00", 
     //IMAGEN
     "https://i.ibb.co/99Gw1ky/especiero-natural.jpg", 
     //NUMERO
@@ -315,7 +315,7 @@ crearProducto(estantes, new Mueble(
     //TERMINACION
     "Teñido en color petiribí más lustre semimate.", 
     //PRECIO
-    16400, 
+    "16.400,00", 
     //IMAGEN
     "https://i.ibb.co/LQpgW6P/estante-de-cocina.jpg", 
     //NUMERO
@@ -336,7 +336,7 @@ crearProducto(estantes, new Mueble(
     //TERMINACION
     "Teñido en color petiribí más lustre semimate.", 
     //PRECIO
-    4278, 
+    "4.278,00", 
     //IMAGEN
     "https://i.ibb.co/JcCHQBy/Dise-o-sin-t-tulo.png", 
     //NUMERO
@@ -359,7 +359,7 @@ crearProducto(bancos, new Mueble(
     //TERMINACION
     "Teñido en color petiribí más lustre semimate.",  
     //PRECIO
-    19013, 
+    "19.013,00", 
     //IMAGEN
     "https://i.ibb.co/bKxVKXs/banco-encordado.jpg", 
     //NUMERO
@@ -381,7 +381,7 @@ crearProducto(mesasRatonas, new Mueble(
     //TERMINACION
     "Teñido en color petiribí más lustre semimate.",  
     //PRECIO
-    29800, 
+    "29.800,00", 
     //IMAGEN
     "https://i.ibb.co/WyGXK60/mesa-ratona-rejilla.jpg", 
     //NUMERO
@@ -403,7 +403,7 @@ crearProducto(mesasRatonas, new Mueble(
     //TERMINACION
     "Teñido en color petiribí más lustre semimate.",  
     //PRECIO
-    40400, 
+    "40.400,00", 
     //IMAGEN
     "https://i.ibb.co/ypBQ1nd/mesa-ratona.jpg", 
     //NUMERO
@@ -425,7 +425,7 @@ crearProducto(mesasDeArrime, new Mueble(
     //TERMINACION
     "Pintura electroestatica color negro.",  
     //PRECIO
-    16080, 
+    "16.080,00", 
     //IMAGEN
     "https://i.ibb.co/WPB5zsr/mesa-de-arrime.jpg", 
     //NUMERO
@@ -447,7 +447,7 @@ crearProducto(dressoire, new Mueble(
     //TERMINACION
     "Teñido en color negro con laca semimate.",  
     //PRECIO
-    30100, 
+    "30.100,00", 
     //IMAGEN
     "https://i.ibb.co/jyQYkLy/dressoire-negro.jpg", 
     //NUMERO
@@ -469,7 +469,7 @@ crearProducto(dressoire, new Mueble(
     //TERMINACION
     "Pintura electroestatica color negro.",  
     //PRECIO
-    23774, 
+    "23.774,00", 
     //IMAGEN
     "https://i.ibb.co/p4dCZMG/consola-con-rejilla.jpg", 
     //NUMERO
@@ -491,7 +491,7 @@ crearProducto(dressoire, new Mueble(
     //TERMINACION
     "Pintura electroestatica color negro.",  
     //PRECIO
-    26586, 
+    "26.586,00", 
     //IMAGEN
     "https://i.ibb.co/pzftswz/Dise-o-sin-t-tulo-2.png", 
     //NUMERO
@@ -513,7 +513,7 @@ crearProducto(dressoire, new Mueble(
         //TERMINACION
         "Teñido en color negro con lustre semimate.",  
         //PRECIO
-        26400, 
+        "26.400,00", 
         //IMAGEN
         "https://i.ibb.co/txSQv9N/Dise-o-sin-t-tulo.png", 
         //NUMERO
@@ -535,7 +535,7 @@ crearProducto(espejosL, new Mueble(
     //TERMINACION
     "Pintura electroestatica en color negro.",  
     //PRECIO
-    26300, 
+    "26.300,00", 
     //IMAGEN
     "https://i.ibb.co/gzsxLp4/espejo-damero.jpg", 
     //NUMERO
@@ -557,7 +557,7 @@ crearProducto(espinesL, new Mueble(
     //TERMINACION
     "Teñido en color petiribí más lustre semimate", 
     //PRECIO
-    20039 , 
+    "20.039,00" , 
     //IMAGEN
     "https://i.ibb.co/rsrnrT4/Dise-o-sin-t-tulo.png", 
     //NUMERO
@@ -579,7 +579,7 @@ crearProducto(espinesL, new Mueble(
     //TERMINACION
     "Teñido en color petiribí más lustre semimate", 
     //PRECIO
-    19400 , 
+    "19.400,00" , 
     //IMAGEN
     "https://i.ibb.co/9Z6t6bC/Dise-o-sin-t-tulo-1.png", 
     //NUMERO
@@ -602,7 +602,7 @@ crearProducto(espinesB, new Mueble(
     //TERMINACION
     "Teñido en color petiribí más lustre semimate.",  
     //PRECIO
-    19075, 
+    "19.075,00", 
     //IMAGEN
     "https://i.ibb.co/Z6TTKSj/espin-ba-o.jpg", 
     //NUMERO
