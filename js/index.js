@@ -173,7 +173,7 @@ function crearMuebleHTML(arr){
                         <p><b>Terminación:</b> ${mueble.terminacion}</p>
                     </div>
                     <div class="productos__precio-2">
-                        <h3>$${mueble.precio},00</h3>
+                        <h3>$${mueble.precio}</h3>
                     </div>
                 </div>
         </section>`
