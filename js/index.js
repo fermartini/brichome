@@ -361,7 +361,7 @@ crearProducto(mesasRatonas, new Mueble(
     //TERMINACION
     "Teñido en color petiribí más lustre semimate.",  
     //PRECIO
-    40400, 
+    29800, 
     //IMAGEN
     "https://i.ibb.co/WyGXK60/mesa-ratona-rejilla.jpg", 
     //NUMERO
@@ -375,7 +375,7 @@ crearProducto(mesasRatonas, new Mueble(
     //CATEGORIA
     "LIVING", 
     //NOMBRE
-    "MESA RATONA", 
+    "MESA RATONA REJILLA VERTICAL", 
     //MATERIAL
     "Álamo.", 
     //MEDIDA
@@ -383,7 +383,7 @@ crearProducto(mesasRatonas, new Mueble(
     //TERMINACION
     "Teñido en color petiribí más lustre semimate.",  
     //PRECIO
-    25300, 
+    40400, 
     //IMAGEN
     "https://i.ibb.co/ypBQ1nd/mesa-ratona.jpg", 
     //NUMERO
