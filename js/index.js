@@ -12,6 +12,7 @@ const mesasRatonas = [];
 const mesasDeArrime = [];
 const dressoire = [];
 const espejosL = [];
+const espinesL = [];
 const espinesB = [];
 
 
@@ -148,7 +149,7 @@ function crearMuebleHTML(arr){
                     </div>
                     <div class="productos__p-2">
                         <p><b>Material:</b> ${mueble.material}</p>
-                        <p><b>Medidas:</b> ${mueble.medidas}</p>
+                        <p><b>Medidas:</b> ${mueble.medida}</p>
                         <p><b>Terminación:</b> ${mueble.terminacion}</p>
                     </div>
                     <div class="productos__precio-2">
@@ -168,7 +169,7 @@ function crearMuebleHTML(arr){
                     </div>
                     <div class="productos__p-2">
                         <p><b>Material:</b> ${mueble.material}</p>
-                        <p><b>Medidas:</b> ${mueble.medidas}</p>
+                        <p><b>Medidas:</b> ${mueble.medida}</p>
                         <p><b>Terminación:</b> ${mueble.terminacion}</p>
                     </div>
                     <div class="productos__precio-2">
@@ -201,9 +202,9 @@ crearProducto(mesasDeLuz, new Mueble(
     //TERMINACION
     "Teñido en color petiribí más lustre semimate.", 
     //PRECIO
-    32430, 
+    34700, 
     //IMAGEN
-    "./img/producto-01/mesa-de-luz-con-estante.png",
+    "https://i.ibb.co/c8xz4GB/mesa-de-luz-con-estante.jpg",
     //NUMERO
     1 , 
     //SUB CATEGORIA
@@ -223,9 +224,9 @@ crearProducto(mesasDeLuz, new Mueble(
     //TERMINACION
     "Teñido en color petiribí más lustre semimate.", 
     //PRECIO
-    29823, 
+    37390, 
     //IMAGEN
-    "./img/producto-01/mesa-de-luz-rejilla.jpg",
+    "https://i.ibb.co/CPcHtLK/mesa-de-luz-rejilla.jpg",
     //NUMERO
      2,
      //SUB CATEGORIA
@@ -248,7 +249,7 @@ crearProducto(espejosH, new Mueble(
     //PRECIO
     29823, 
     //IMAGEN
-    "./img/producto-02/espejo-bold.jpg", 
+    "https://i.ibb.co/zX8LYTd/espejo-bold.jpg", 
     //NUMERO
     1,
     //SUB CATEGORIA
@@ -260,7 +261,7 @@ crearProducto(espinesH, new Mueble(
     //CATEGORIA
     "HABITACION", 
     //NOMBRE
-    "ESPIN TRIPLE CON ESTANTE",
+    "ESPIN TRIPLE C/ESTANTE",
     //MATERIAL
     "Álamo.",
     //MEDIDAS
@@ -268,14 +269,13 @@ crearProducto(espinesH, new Mueble(
     //TERMINACION
     "Teñido en color petiribí más lustre semimate", 
     //PRECIO
-    23805 , 
+    29200 , 
     //IMAGEN
-    "./img/producto-03/espin-triple.jpg", 
+    "https://i.ibb.co/q7sqh6b/espin-triple.jpg", 
     //NUMERO
     1,
     //SUB CATEGORIA
     "ESPINES"))
-
 
 
 //COCINA
@@ -293,9 +293,9 @@ crearProducto(especieros, new Mueble(
     //TERMINACION
     "Madera de álamo natural con la terminación de laca semimate.", 
     //PRECIO
-    28673, 
+    18580, 
     //IMAGEN
-    "./img/producto-04/especiero-natural.jpg", 
+    "https://i.ibb.co/99Gw1ky/especiero-natural.jpg", 
     //NUMERO
     1, 
     //SUB CATEGORIA
@@ -315,14 +315,13 @@ crearProducto(especieros, new Mueble(
     //TERMINACION
     "Teñido en color petiribí más lustre semimate.", 
     //PRECIO
-    27063, 
+    16400, 
     //IMAGEN
-    "./img/producto-05/estante-de-cocina.jpg", 
+    "https://i.ibb.co/LQpgW6P/estante-de-cocina.jpg", 
     //NUMERO
     2, 
     //SUB CATEGORIA
     "ESPECIERO" ))
-
 
 
 //LIVING
@@ -342,141 +341,211 @@ crearProducto(bancos, new Mueble(
     //PRECIO
     19013, 
     //IMAGEN
-    "./img/producto-06/banco-encordado.jpg", 
+    "https://i.ibb.co/bKxVKXs/banco-encordado.jpg", 
     //NUMERO
     1, 
     //SUB CATEGORIA
     "BANCOS" ))
 
-    crearProducto(mesasRatonas, new Mueble(
-        //ID
-        sumarID(bancos), 
-        //CATEGORIA
-        "LIVING", 
-        //NOMBRE
-        "MESA RATONA REJILLA", 
-        //MATERIAL
-        "Álamo.", 
-        //MEDIDA
-        "120 cm. x 35 cm. x 50 cm.", 
-        //TERMINACION
-        "Teñido en color petiribí más lustre semimate.",  
-        //PRECIO
-        31280, 
-        //IMAGEN
-        "./img/producto-07/mesa-ratona-rejilla.jpg", 
-        //NUMERO
-        1, 
-        //SUB CATEGORIA
-        "MESAS RATONAS" ))
-    crearProducto(mesasRatonas, new Mueble(
-            //ID
-            sumarID(mesasRatonas), 
-            //CATEGORIA
-            "LIVING", 
-            //NOMBRE
-            "MESA RATONA", 
-            //MATERIAL
-            "Álamo.", 
-            //MEDIDA
-            "", 
-            //TERMINACION
-            "Teñido en color petiribí más lustre semimate.",  
-            //PRECIO
-            25300, 
-            //IMAGEN
-            "./img/producto-13/mesa_ratona.jpeg", 
-            //NUMERO
-            2, 
-            //SUB CATEGORIA
-            "MESAS RATONAS" ))
-    crearProducto(mesasDeArrime, new Mueble(
-            //ID
-            sumarID(mesasRatonas), 
-            //CATEGORIA
-            "LIVING", 
-            //NOMBRE
-            "MESA DE ARRIME", 
-            //MATERIAL
-            "Hierro.", 
-            //MEDIDA
-            "40 cm. x 40 cm. x 65 cm.", 
-            //TERMINACION
-            "Pintura electroestatica color negro.",  
-            //PRECIO
-            15870, 
-            //IMAGEN
-            "./img/producto-10/mesa-de-arrime.jpg", 
-            //NUMERO
-            1, 
-            //SUB CATEGORIA
-            "MESAS DE ARRIME" ))
-            crearProducto(dressoire, new Mueble(
-                //ID
-                sumarID(mesasDeArrime), 
-                //CATEGORIA
-                "LIVING", 
-                //NOMBRE
-                "DRESSOIRE NEGRO", 
-                //MATERIAL
-                "Álamo.", 
-                //MEDIDA
-                "80 cm. x 120 cm. x 35 cm.", 
-                //TERMINACION
-                "Teñido en color negro con laca semimate.",  
-                //PRECIO
-                24533, 
-                //IMAGEN
-                "./img/producto-09/dressoire-negro.jpg", 
-                //NUMERO
-                1, 
-                //SUB CATEGORIA
-                "DRESSOIRE" ))
-                crearProducto(dressoire, new Mueble(
-                    //ID
-                    sumarID(dressoire), 
-                    //CATEGORIA
-                    "LIVING", 
-                    //NOMBRE
-                    "CONSOLA CON REJILLA", 
-                    //MATERIAL
-                    "Hierro.", 
-                    //MEDIDA
-                    "90 cm. x 80 cm. x 25 cm.", 
-                    //TERMINACION
-                    "Pintura electroestatica color negro.",  
-                    //PRECIO
-                    22923, 
-                    //IMAGEN
-                    "./img/producto-08/consola-con-rejilla.jpg", 
-                    //NUMERO
-                    2, 
-                    //SUB CATEGORIA
-                    "DRESSOIRE" ))
-                    crearProducto(espejosL, new Mueble(
-                        //ID
-                        sumarID(dressoire), 
-                        //CATEGORIA
-                        "LIVING", 
-                        //NOMBRE
-                        "ESPEJO DAMERO", 
-                        //MATERIAL
-                        "Hierro.", 
-                        //MEDIDA
-                        "100 cm. x 100 cm.", 
-                        //TERMINACION
-                        "Pintura electroestatica en color negro.",  
-                        //PRECIO
-                        21160, 
-                        //IMAGEN
-                        "./img/producto-11/espejo-damero.jpg", 
-                        //NUMERO
-                        1, 
-                        //SUB CATEGORIA
-                        "ESPEJOS" ))
+crearProducto(mesasRatonas, new Mueble(
+    //ID
+    sumarID(bancos), 
+    //CATEGORIA
+    "LIVING", 
+    //NOMBRE
+    "MESA RATONA REJILLA", 
+    //MATERIAL
+    "Álamo.", 
+    //MEDIDA
+    "120 cm. x 35 cm. x 50 cm.", 
+    //TERMINACION
+    "Teñido en color petiribí más lustre semimate.",  
+    //PRECIO
+    40400, 
+    //IMAGEN
+    "https://i.ibb.co/WyGXK60/mesa-ratona-rejilla.jpg", 
+    //NUMERO
+    1, 
+    //SUB CATEGORIA
+    "MESAS RATONAS" ))
+
+crearProducto(mesasRatonas, new Mueble(
+    //ID
+    sumarID(mesasRatonas), 
+    //CATEGORIA
+    "LIVING", 
+    //NOMBRE
+    "MESA RATONA", 
+    //MATERIAL
+    "Álamo.", 
+    //MEDIDA
+    " ", 
+    //TERMINACION
+    "Teñido en color petiribí más lustre semimate.",  
+    //PRECIO
+    25300, 
+    //IMAGEN
+    "https://i.ibb.co/ypBQ1nd/mesa-ratona.jpg", 
+    //NUMERO
+    2, 
+    //SUB CATEGORIA
+    "MESAS RATONAS" ))
+
+crearProducto(mesasDeArrime, new Mueble(
+    //ID
+    sumarID(mesasRatonas), 
+    //CATEGORIA        
+    "LIVING", 
+    //NOMBRE
+    "MESA DE ARRIME", 
+    //MATERIAL
+    "Hierro.", 
+    //MEDIDA
+    "40 cm. x 40 cm. x 65 cm.", 
+    //TERMINACION
+    "Pintura electroestatica color negro.",  
+    //PRECIO
+    16080, 
+    //IMAGEN
+    "https://i.ibb.co/WPB5zsr/mesa-de-arrime.jpg", 
+    //NUMERO
+    1, 
+    //SUB CATEGORIA
+    "MESAS DE ARRIME" ))
+
+crearProducto(dressoire, new Mueble(
+    //ID
+    sumarID(mesasDeArrime), 
+    //CATEGORIA
+    "LIVING", 
+    //NOMBRE
+    "DRESSOIRE NEGRO", 
+    //MATERIAL
+    "Álamo.", 
+    //MEDIDA
+    "80 cm. x 120 cm. x 35 cm.", 
+    //TERMINACION
+    "Teñido en color negro con laca semimate.",  
+    //PRECIO
+    30100, 
+    //IMAGEN
+    "https://i.ibb.co/jyQYkLy/dressoire-negro.jpg", 
+    //NUMERO
+    1, 
+    //SUB CATEGORIA
+    "DRESSOIRE" ))
+            
+crearProducto(dressoire, new Mueble(
+    //ID
+    sumarID(dressoire), 
+    //CATEGORIA
+    "LIVING", 
+    //NOMBRE
+    "CONSOLA CON REJILLA", 
+    //MATERIAL
+    "Hierro.", 
+    //MEDIDA
+    "90 cm. x 80 cm. x 25 cm.", 
+    //TERMINACION
+    "Pintura electroestatica color negro.",  
+    //PRECIO
+    23774, 
+    //IMAGEN
+    "https://i.ibb.co/p4dCZMG/consola-con-rejilla.jpg", 
+    //NUMERO
+    2, 
+    //SUB CATEGORIA
+    "DRESSOIRE" ))
+
+crearProducto(dressoire, new Mueble(
+    //ID
+    sumarID(dressoire), 
+    //CATEGORIA
+    "LIVING", 
+    //NOMBRE
+    "CONSOLA CON HIERRO", 
+    //MATERIAL
+    "Hierro.", 
+    //MEDIDA
+    "90 cm. x 80 cm. x 25 cm.", 
+    //TERMINACION
+    "Pintura electroestatica color negro.",  
+    //PRECIO
+    26586, 
+    //IMAGEN
+    "https://i.ibb.co/pzftswz/Dise-o-sin-t-tulo-2.png", 
+    //NUMERO
+    2, 
+    //SUB CATEGORIA
+    "DRESSOIRE" ))
+
+crearProducto(espejosL, new Mueble(
+    //ID
+     sumarID(dressoire), 
+    //CATEGORIA
+    "LIVING", 
+    //NOMBRE
+    "ESPEJO DAMERO", 
+    //MATERIAL
+    "Hierro.", 
+    //MEDIDA
+    "100 cm. x 100 cm.", 
+    //TERMINACION
+    "Pintura electroestatica en color negro.",  
+    //PRECIO
+    21160, 
+    //IMAGEN
+    "https://i.ibb.co/gzsxLp4/espejo-damero.jpg", 
+    //NUMERO
+    1, 
+    //SUB CATEGORIA
+    "ESPEJOS" ))
+
+crearProducto(espinesL, new Mueble(
+    //ID
+    sumarID(espejosL),
+    //CATEGORIA
+    "LIVING", 
+    //NOMBRE
+    "ESPIN TRIPLE",
+    //MATERIAL
+    "Álamo.",
+    //MEDIDAS
+    "200 cm. x 60 cm.",
+    //TERMINACION
+    "Teñido en color petiribí más lustre semimate", 
+    //PRECIO
+    20039 , 
+    //IMAGEN
+    "https://i.ibb.co/rsrnrT4/Dise-o-sin-t-tulo.png", 
+    //NUMERO
+    1,
+    //SUB CATEGORIA
+    "ESPINES"))
+
+crearProducto(espinesL, new Mueble(
+    //ID
+    sumarID(espinesL),
+    //CATEGORIA
+    "LIVING", 
+    //NOMBRE
+    "ESPIN DOBLE C/ESTANTE",
+    //MATERIAL
+    "Álamo.",
+    //MEDIDAS
+    "200 cm. x 40 cm.",
+    //TERMINACION
+    "Teñido en color petiribí más lustre semimate", 
+    //PRECIO
+    19400 , 
+    //IMAGEN
+    "https://i.ibb.co/9Z6t6bC/Dise-o-sin-t-tulo-1.png", 
+    //NUMERO
+    2,
+    //SUB CATEGORIA
+    "ESPINES"))
         
 //BAÑO
-
 crearProducto(espinesB, new Mueble(
     //ID
    1, 
@@ -491,9 +560,9 @@ crearProducto(espinesB, new Mueble(
     //TERMINACION
     "Teñido en color petiribí más lustre semimate.",  
     //PRECIO
-    17403, 
+    19075, 
     //IMAGEN
-    "./img/producto-12/espin-baño.jpg", 
+    "https://i.ibb.co/Z6TTKSj/espin-ba-o.jpg", 
     //NUMERO
     1, 
     //SUB CATEGORIA
@@ -512,4 +581,5 @@ crearMuebleHTML(mesasRatonas)
 crearMuebleHTML(mesasDeArrime)
 crearMuebleHTML(dressoire)
 crearMuebleHTML(espejosL)
+crearMuebleHTML(espinesL)
 crearMuebleHTML(espinesB)
