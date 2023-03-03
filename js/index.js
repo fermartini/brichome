@@ -224,7 +224,7 @@ crearProducto(mesasDeLuz, new Mueble(
     //TERMINACION
     "Teñido en color petiribí más lustre semimate.", 
     //PRECIO
-    37390, 
+    "37.390,00", 
     //IMAGEN
     "https://i.ibb.co/CPcHtLK/mesa-de-luz-rejilla.jpg",
     //NUMERO
