@@ -324,7 +324,7 @@ crearProducto(estantes, new Mueble(
     "ESTANTES" ))
 crearProducto(estantes, new Mueble(
     //ID
-    sumarID(especieros), 
+    sumarID(estantes), 
     //CATEGORIA
     "COCINA", 
     //NOMBRE
