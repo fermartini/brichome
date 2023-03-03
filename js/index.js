@@ -194,7 +194,7 @@ crearProducto(mesasDeLuz, new Mueble(
     //CATEGORIA
     "HABITACION",
     //NOMBRE
-    "MESA CON ESTANTE", 
+    "MESA DE LUZ CON ESTANTE", 
     //MATERIALES
     "Álamo.",
     //MEDIDA
@@ -216,7 +216,7 @@ crearProducto(mesasDeLuz, new Mueble(
     //CATEGORIA
     "HABITACION",
     //NOMBRE
-    "MESA CON REJILLAS", 
+    "MESA DE LUZ CON REJILLAS", 
     //MATERIAL
     "Álamo.",
     //MEDIDA
@@ -307,7 +307,7 @@ crearProducto(estantes, new Mueble(
     //CATEGORIA
     "COCINA", 
     //NOMBRE
-    "ESTANTE DE COCINAL", 
+    "ESTANTE DE COCINA", 
     //MATERIAL
     "Álamo.", 
     //MEDIDA
