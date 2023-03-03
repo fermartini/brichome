@@ -221,7 +221,9 @@ ul .nav-link:hover {
       .productos__precio, .productos-2 .productos__precio-2 {
         display: flex;
         justify-content: center; } }
-
+.productos__nombre-2{
+margin-left: 5rem;
+}
 .productos-2 {
   padding-top: 5rem;
   background-color: #000f14; }
