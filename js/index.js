@@ -338,7 +338,7 @@ crearProducto(estantes, new Mueble(
     //PRECIO
     4278, 
     //IMAGEN
-    "ttps://i.ibb.co/JcCHQBy/Dise-o-sin-t-tulo.png", 
+    "https://i.ibb.co/JcCHQBy/Dise-o-sin-t-tulo.png", 
     //NUMERO
     2, 
     //SUB CATEGORIA
