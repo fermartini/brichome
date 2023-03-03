@@ -168,13 +168,15 @@ ul .nav-link:hover {
         grid-template-columns: 1fr; } }
   .productos__img {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+  ;}
     @media screen and (max-width: 576px) {
       .productos__img {
         width: 100vw; } }
   .productos img, .productos-2 img {
     height: 60vh;
-    box-shadow: 5px 5px 5px #999; }
+    box-shadow: 5px 5px 5px #999;
+  border-radius: 2rem}
     @media screen and (max-width: 576px) {
       .productos img, .productos-2 img {
         width: 80vw;
