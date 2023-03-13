@@ -564,27 +564,7 @@ crearProducto(dressoire, new Mueble(
         //SUB CATEGORIA
         "DRESSOIRE" ))
 
-crearProducto(dressoire, new Mueble(
-        //ID
-        sumarID(dressoire), 
-        //CATEGORIA
-        "LIVING", 
-        //NOMBRE
-        "CONSOLA DE HIERRO", 
-        //MATERIAL
-        "Hierro.", 
-        //MEDIDA
-        "90 cm. x 80 cm. x 25 cm.", 
-        //TERMINACION
-        "Pintura electroestatica.",  
-        //PRECIO
-        "26.600,00", 
-        //IMAGEN
-        "https://i.ibb.co/jZ6gBjh/Dise-o-sin-t-tulo.png", 
-        //NUMERO
-        2, 
-        //SUB CATEGORIA
-        "DRESSOIRE" ))
+
 crearProducto(dressoire, new Mueble(
         //ID
         sumarID(dressoire), 
