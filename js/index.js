@@ -306,7 +306,7 @@ crearProducto(especieros, new Mueble(
     //CATEGORIA
     "COCINA", 
     //NOMBRE
-    "ESPECIERO NATURAL", 
+    "ESPECIERO", 
     //MATERIAL
     "Álamo.", 
     //MEDIDA
