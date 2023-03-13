@@ -300,6 +300,27 @@ crearProducto(especieros, new Mueble(
     1, 
     //SUB CATEGORIA
     "ESPECIERO" ))
+crearProducto(especieros, new Mueble(
+    //ID
+    sumarID(especieros),
+    //CATEGORIA
+    "COCINA", 
+    //NOMBRE
+    "ESPECIERO NATURAL", 
+    //MATERIAL
+    "Álamo.", 
+    //MEDIDA
+    "100 cm. x 10 cm. x 100 cm.", 
+    //TERMINACION
+    "Teñido en color petiribí más lustre semimate..", 
+    //PRECIO
+    "24.500,00", 
+    //IMAGEN
+    "https://i.ibb.co/5rxW0G1/Dise-o-sin-t-tulo-3.png", 
+    //NUMERO
+    2, 
+    //SUB CATEGORIA
+    "ESPECIERO" ))
     
 crearProducto(estantes, new Mueble(
     //ID
@@ -406,6 +427,28 @@ crearProducto(mesasRatonas, new Mueble(
     "40.400,00", 
     //IMAGEN
     "https://i.ibb.co/ypBQ1nd/mesa-ratona.jpg", 
+    //NUMERO
+    2, 
+    //SUB CATEGORIA
+    "MESAS RATONAS" ))
+
+crearProducto(mesasRatonas, new Mueble(
+    //ID
+    sumarID(mesasRatonas), 
+    //CATEGORIA
+    "LIVING", 
+    //NOMBRE
+    "MESA RATONA REJILLA LETI", 
+    //MATERIAL
+    "Álamo.", 
+    //MEDIDA
+    "100 cm. x 50 cm. x 45 cm.", 
+    //TERMINACION
+    "Teñido en color petiribí más lustre semimate.",  
+    //PRECIO
+    "32.400,00", 
+    //IMAGEN
+    "https://i.ibb.co/5MgKZZs/Dise-o-sin-t-tulo-2.png", 
     //NUMERO
     2, 
     //SUB CATEGORIA
@@ -520,6 +563,51 @@ crearProducto(dressoire, new Mueble(
         2, 
         //SUB CATEGORIA
         "DRESSOIRE" ))
+
+crearProducto(dressoire, new Mueble(
+        //ID
+        sumarID(dressoire), 
+        //CATEGORIA
+        "LIVING", 
+        //NOMBRE
+        "CONSOLA DE HIERRO ANA", 
+        //MATERIAL
+        "Hierro.", 
+        //MEDIDA
+        "90 cm. x 80 cm. x 25 cm.", 
+        //TERMINACION
+        "Pintura electroestatica.",  
+        //PRECIO
+        "26.600,00", 
+        //IMAGEN
+        "https://i.ibb.co/jZ6gBjh/Dise-o-sin-t-tulo.png", 
+        //NUMERO
+        2, 
+        //SUB CATEGORIA
+        "DRESSOIRE" ))
+crearProducto(dressoire, new Mueble(
+        //ID
+        sumarID(dressoire), 
+        //CATEGORIA
+        "LIVING", 
+        //NOMBRE
+        "DRESSOIRE CON REJILLA LUCIA", 
+        //MATERIAL
+        "Alamo.", 
+        //MEDIDA
+        "100 cm. x 35 cm. x 90 cm.", 
+        //TERMINACION
+        "Teñido en color petiribi con lustre semimate.",  
+        //PRECIO
+        "33.850,00", 
+        //IMAGEN
+        "https://i.ibb.co/L9GN7mM/Dise-o-sin-t-tulo-1.png", 
+        //NUMERO
+        2, 
+        //SUB CATEGORIA
+        "DRESSOIRE" ))
+
+
 
 crearProducto(espejosL, new Mueble(
     //ID
