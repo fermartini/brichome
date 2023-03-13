@@ -438,7 +438,7 @@ crearProducto(mesasRatonas, new Mueble(
     //CATEGORIA
     "LIVING", 
     //NOMBRE
-    "MESA RATONA REJILLA LETI", 
+    "MESA RATONA REJILLA", 
     //MATERIAL
     "Álamo.", 
     //MEDIDA
@@ -570,7 +570,7 @@ crearProducto(dressoire, new Mueble(
         //CATEGORIA
         "LIVING", 
         //NOMBRE
-        "CONSOLA DE HIERRO ANA", 
+        "CONSOLA DE HIERRO", 
         //MATERIAL
         "Hierro.", 
         //MEDIDA
@@ -591,7 +591,7 @@ crearProducto(dressoire, new Mueble(
         //CATEGORIA
         "LIVING", 
         //NOMBRE
-        "DRESSOIRE CON REJILLA LUCIA", 
+        "DRESSOIRE CON REJILLA", 
         //MATERIAL
         "Alamo.", 
         //MEDIDA
