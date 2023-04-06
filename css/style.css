@@ -195,6 +195,9 @@ ul .nav-link:hover {
       display: flex;
       justify-content: center; } }
   .productos__info {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
     overflow: hidden p;
       overflow-font-size: 1.2rem; }
     @media screen and (max-width: 1024px) {
