@@ -8,6 +8,7 @@ const espejosH = [];
 const espinesH = [];
 const especieros = [];
 const bancos = [];
+const pieDeCama = [];
 const mesasRatonas = [];
 const mesasDeArrime = [];
 const dressoire = [];
@@ -277,6 +278,27 @@ crearProducto(espinesH, new Mueble(
     //SUB CATEGORIA
     "ESPINES"))
 
+crearProducto(pieDeCama, new Mueble(
+    //ID
+    sumarID(bancos), 
+    //CATEGORIA
+    "HABITACION", 
+    //NOMBRE
+    "PIE DE CAMA", 
+    //MATERIAL
+    "Álamo.", 
+    //MEDIDA
+    "120 cm. x 35 cm. x 50 cm.", 
+    //TERMINACION
+    "Teñido en color petiribí más lustre semimate.",  
+    //PRECIO
+    "32.300,00", 
+    //IMAGEN
+    "https://i.ibb.co/WyGXK60/mesa-ratona-rejilla.jpg", 
+    //NUMERO
+    1, 
+    //SUB CATEGORIA
+    "MESAS RATONAS" ))
 
 //COCINA
 crearProducto(especieros, new Mueble(
@@ -388,27 +410,7 @@ crearProducto(bancos, new Mueble(
     //SUB CATEGORIA
     "BANCOS" ))
 
-crearProducto(mesasRatonas, new Mueble(
-    //ID
-    sumarID(bancos), 
-    //CATEGORIA
-    "HABITACION", 
-    //NOMBRE
-    "PIE DE CAMA", 
-    //MATERIAL
-    "Álamo.", 
-    //MEDIDA
-    "120 cm. x 35 cm. x 50 cm.", 
-    //TERMINACION
-    "Teñido en color petiribí más lustre semimate.",  
-    //PRECIO
-    "32.300,00", 
-    //IMAGEN
-    "https://i.ibb.co/WyGXK60/mesa-ratona-rejilla.jpg", 
-    //NUMERO
-    1, 
-    //SUB CATEGORIA
-    "MESAS RATONAS" ))
+
 
 crearProducto(mesasRatonas, new Mueble(
     //ID
@@ -685,6 +687,7 @@ crearProducto(espinesB, new Mueble(
 crearMuebleHTML(mesasDeLuz)
 crearMuebleHTML(espejosH)
 crearMuebleHTML(espinesH)
+crearMuebleHTML(pieDeCama)
 crearMuebleHTML(especieros)
 crearMuebleHTML(estantes)
 crearMuebleHTML(bancos)
