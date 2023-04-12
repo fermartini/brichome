@@ -414,7 +414,7 @@ crearProducto(bancos, new Mueble(
 
 crearProducto(mesasRatonas, new Mueble(
     //ID
-    sumarID(mesasRatonas), 
+    sumarID(bancos), 
     //CATEGORIA
     "LIVING", 
     //NOMBRE
