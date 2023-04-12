@@ -280,7 +280,7 @@ crearProducto(espinesH, new Mueble(
 
 crearProducto(pieDeCama, new Mueble(
     //ID
-    sumarID(espejosH), 
+    sumarID(espinesH), 
     //CATEGORIA
     "HABITACION", 
     //NOMBRE
@@ -298,7 +298,7 @@ crearProducto(pieDeCama, new Mueble(
     //NUMERO
     1, 
     //SUB CATEGORIA
-    "MESAS RATONAS" ))
+    "PIE DE CAMA" ))
 
 //COCINA
 crearProducto(especieros, new Mueble(
