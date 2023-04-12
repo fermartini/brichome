@@ -392,9 +392,9 @@ crearProducto(mesasRatonas, new Mueble(
     //ID
     sumarID(bancos), 
     //CATEGORIA
-    "LIVING", 
+    "HABITACION", 
     //NOMBRE
-    "MESA RATONA REJILLA", 
+    "PIE DE CAMA", 
     //MATERIAL
     "Álamo.", 
     //MEDIDA
@@ -428,7 +428,7 @@ crearProducto(mesasRatonas, new Mueble(
     //IMAGEN
     "https://i.ibb.co/ypBQ1nd/mesa-ratona.jpg", 
     //NUMERO
-    2, 
+    1, 
     //SUB CATEGORIA
     "MESAS RATONAS" ))
 
