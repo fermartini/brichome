@@ -270,7 +270,7 @@ crearProducto(espinesH, new Mueble(
     //TERMINACION
     "Teñido en color petiribí más lustre semimate", 
     //PRECIO
-    "26.300,00" , 
+    "29.400,00" , 
     //IMAGEN
     "https://i.ibb.co/q7sqh6b/espin-triple.jpg", 
     //NUMERO
